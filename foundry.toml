@@ -1,6 +1,13 @@
 [profile.default]
+solc_version = '0.8.26'
+evm_version = "cancun"
+optimizer_runs = 800
+via_ir = false
+ffi = true
 src = "src"
 out = "out"
 libs = ["lib"]
+# foundry.toml
+
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
