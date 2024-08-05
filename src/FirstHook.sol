@@ -67,7 +67,7 @@ contract FirstHook is BaseHook, ERC20 {
             hookData,
             (address, address)
         );
-        if (referrer == address(0)) return;
+
         if (referree == address(0)) return;
 
         if (referredBy[referree] == address(0) && referrer != address(0)) {
